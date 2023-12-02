@@ -1,0 +1,41 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      host:
+      - api.openweathermap.org
+      user-agent:
+      - python-httpx/0.25.1
+    method: GET
+    uri: https://api.openweathermap.org/data/2.5/forecast/daily?lat=41.6938&lon=44.6833&cnt=0&appid=c443b387996f06f153d69a91f66f7c60
+  response:
+    content: '{"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401
+      for more info."}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 14 Nov 2023 08:56:07 GMT
+      Server:
+      - openresty
+      X-Cache-Key:
+      - /data/2.5/forecast/daily?cnt=0&lat=41.69&lon=44.68
+    http_version: HTTP/1.1
+    status_code: 401
+version: 1
