@@ -2,7 +2,7 @@ from uuid import uuid4
 
 import pytest
 
-from repository.repository import InMemoryRepository, DoesNotExistError, Apple, ExistsError
+from appleStore.repository import InMemoryRepository, DoesNotExistError, Apple, ExistsError
 
 
 def test_should_not_read_unknown() -> None:
