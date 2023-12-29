@@ -6,3 +6,10 @@ pytest
 pytest-cov
 
 httpx
+fastapi
+pydantic
+typer
+uvicorn
+python-dotenv
+
+Faker
